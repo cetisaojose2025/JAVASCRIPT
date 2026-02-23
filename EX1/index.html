@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello, word</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <article>
+
+            <div class="container">
+
+                <h1> Boas vindas!</h1>
+                <p>Vamos personalizar sua saudação usando JavaScript!</p>
+                <p id="saudacao">Olá, visitante!<p>
+                <button onclick="mudarNome()">pernalizar saudação<button>
+
+            </div>
+
+        </article>
+
+    </main>
+
+    <script>
+        let nome = "nayane"
+        function mudarNome() {
+          document.getElementById("saudacao").textContent = "Olá, " + nome
+        }
+        
+    </script>
+</body>
+
+</html>
